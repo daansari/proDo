@@ -30,7 +30,7 @@ production:
   encoding: unicode
   pool: 5
   database: myhotelinfo
-  # username: app
-  # password: N0s_yKsZXsHT9lArql5A
+  username: 
+  password: 
   # host: 210.193.164.50
   # port: 5432

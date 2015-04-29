@@ -30,7 +30,8 @@ production:
   encoding: unicode
   pool: 5
   database: myhotelinfo
-  username: 
-  password: 
+  username: danishaa
+  password: 6Tv-kdp-H3N-Nnd
+  template: template0
   # host: 210.193.164.50
   # port: 5432

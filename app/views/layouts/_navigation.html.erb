@@ -20,7 +20,8 @@
 <%
 =end%>
 
-<% if current_page? ( landing_page_path ) %>
+
+<% if !(current_page?(root_path)) %>
   <nav class="navbar navbar-default ">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

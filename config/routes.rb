@@ -3,15 +3,15 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   
-  get 'landing_page' => 'landing_page#welcome'
+  get 'landing_page' => 'landing_page#welcome', as: 'landing_page'
 
   root 'landing_page#welcome'
 
 # root landing_page
   # You can have the root of your site routed with "root"
-  get 'prodo' =>  'pages#home'
+  get 'prodo' =>  'pages#home', as: 'prodo'
 
-  get 'about' => 'pages#about'
+  get 'about' => 'pages#about', as: 'about'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -4,17 +4,17 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
-default: &default
-  adapter: sqlite3
-  pool: 5
-  timeout: 5000
+# default: &default
+#   adapter: sqlite3
+#   pool: 5
+#   timeout: 5000
 
 development:
   # NINEFOLD
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: myhotelinfo-dev
+  database: prodo-dev
   username: 
   password: 
   template: template0
@@ -27,7 +27,7 @@ test:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: myhotelinfo-test
+  database: prodo-test
   username: 
   password: 
   template: template0
@@ -41,7 +41,7 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: myhotelinfo
+  database: prodo-prod
   username: danishaa
   password: 6Tv-kdp-H3N-Nnd
   template: template0
